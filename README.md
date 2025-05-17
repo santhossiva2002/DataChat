@@ -14,7 +14,7 @@ DataChat is a powerful full-stack application that allows users to upload datase
 - **Custom Color Themes**: Personalize chart visualizations with different color palettes
 
 ## Getting Started
-
+   - Live Demo https://github.com/santhossiva2002/datachat
 ### Prerequisites
 
 - Node.js (v18 or later)
@@ -25,7 +25,7 @@ DataChat is a powerful full-stack application that allows users to upload datase
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/datachat.git
+   git clone https://github.com/santhossiva2002/datachat
    cd datachat
    ```
 
