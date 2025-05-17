@@ -1,0 +1,122 @@
+[
+  {
+    "invoice_id": "INV1001",
+    "customer_id": "C001",
+    "customer_age": 32,
+    "region": "North",
+    "product_id": "P102",
+    "product_category": "Electronics",
+    "quantity": 2,
+    "unit_price": 299.99,
+    "discount_applied": 10,
+    "sale_date": "2024-11-12"
+  },
+  {
+    "invoice_id": "INV1002",
+    "customer_id": "C002",
+    "customer_age": 45,
+    "region": "East",
+    "product_id": "P205",
+    "product_category": "Home Decor",
+    "quantity": 1,
+    "unit_price": 159.5,
+    "discount_applied": 0,
+    "sale_date": "2025-01-05"
+  },
+  {
+    "invoice_id": "INV1003",
+    "customer_id": "C003",
+    "customer_age": 28,
+    "region": "South",
+    "product_id": "P309",
+    "product_category": "Fitness",
+    "quantity": 3,
+    "unit_price": 89.99,
+    "discount_applied": 5,
+    "sale_date": "2025-02-21"
+  },
+  {
+    "invoice_id": "INV1004",
+    "customer_id": "C004",
+    "customer_age": 53,
+    "region": "West",
+    "product_id": "P403",
+    "product_category": "Appliances",
+    "quantity": 1,
+    "unit_price": 499.99,
+    "discount_applied": 15,
+    "sale_date": "2024-12-14"
+  },
+  {
+    "invoice_id": "INV1005",
+    "customer_id": "C005",
+    "customer_age": 36,
+    "region": "North",
+    "product_id": "P102",
+    "product_category": "Electronics",
+    "quantity": 4,
+    "unit_price": 299.99,
+    "discount_applied": 20,
+    "sale_date": "2025-03-01"
+  },
+  {
+    "invoice_id": "INV1006",
+    "customer_id": "C006",
+    "customer_age": 29,
+    "region": "East",
+    "product_id": "P205",
+    "product_category": "Home Decor",
+    "quantity": 2,
+    "unit_price": 159.5,
+    "discount_applied": 0,
+    "sale_date": "2025-01-20"
+  },
+  {
+    "invoice_id": "INV1007",
+    "customer_id": "C007",
+    "customer_age": 41,
+    "region": "South",
+    "product_id": "P309",
+    "product_category": "Fitness",
+    "quantity": 1,
+    "unit_price": 89.99,
+    "discount_applied": 0,
+    "sale_date": "2025-02-10"
+  },
+  {
+    "invoice_id": "INV1008",
+    "customer_id": "C008",
+    "customer_age": 39,
+    "region": "West",
+    "product_id": "P403",
+    "product_category": "Appliances",
+    "quantity": 1,
+    "unit_price": 499.99,
+    "discount_applied": 5,
+    "sale_date": "2024-12-28"
+  },
+  {
+    "invoice_id": "INV1009",
+    "customer_id": "C009",
+    "customer_age": 50,
+    "region": "North",
+    "product_id": "P505",
+    "product_category": "Books",
+    "quantity": 6,
+    "unit_price": 24.99,
+    "discount_applied": 10,
+    "sale_date": "2025-01-11"
+  },
+  {
+    "invoice_id": "INV1010",
+    "customer_id": "C010",
+    "customer_age": 22,
+    "region": "East",
+    "product_id": "P605",
+    "product_category": "Toys",
+    "quantity": 2,
+    "unit_price": 39.99,
+    "discount_applied": 0,
+    "sale_date": "2025-03-03"
+  }
+]

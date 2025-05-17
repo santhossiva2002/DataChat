@@ -1,0 +1,54 @@
+Build a full-stack dynamic conversational data agent using the following:
+
+### 🔧 Stack
+- Frontend: React (JavaScript, no TypeScript)
+- Backend: Node.js + Express
+- Database: SQLite or PostgreSQL (local or hosted)
+- File Upload: Support for CSV, JSON, SQL files
+- LLM: Use Google Gemini 2.0 Flash via API call (assume API key is set)
+
+### ✅ Features
+1. **Upload UI**:
+   - A file upload button on the main page
+   - Accept CSV, JSON, and SQL files
+   - Upon upload, store the data in the backend database (auto-create table)
+   - Show table preview (e.g., first 10 rows)
+
+2. **Chat Interface**:
+   - Input box for user questions (vague or complex)
+   - Uses Gemini 2.0 Flash to analyze the question and generate SQL queries on the uploaded dataset
+   - Fetch the SQL result and return:
+     - Natural language answer
+     - Table with result data
+     - Optional charts (bar, pie, etc., using Chart.js)
+
+3. **Gemini API**:
+   - Use Gemini 2.0 Flash (assume `process.env.GEMINI_API_KEY` is already available)
+   - Prompt it with:
+     - Schema of uploaded tables
+     - Sample rows (to understand data types)
+     - The user question
+     - Ask it to return: SQL query + brief explanation
+
+4. **Backend**:
+   - Express API:
+     - `/upload` → Accept file upload, parse it, and load into DB
+     - `/ask` → Accept user question and use Gemini to generate SQL, execute it, and return results + insights
+     - `/data-preview` → Return top rows of uploaded table
+
+5. **Frontend**:
+   - File upload component
+   - Table preview component
+   - Chat UI (user sends message, receives answer + chart)
+   - Show loading spinners during processing
+
+6. **General Requirements**:
+   - Handle dirty data and malformed schema
+   - Auto-detect column names or use default names (col1, col2...) if missing
+   - Deployable on Replit (no Docker, use SQLite by default)
+
+### 🧠 Notes
+- Do not use TypeScript.
+- Use clean, minimal styling (Tailwind optional).
+- Focus on functionality and logic.
+- The system should dynamically adapt to any user dataset.
